@@ -377,3 +377,70 @@ h2, h3 {
   height: 50px;
   border-radius: 50%;
 }*/
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .underline-heading {
+    font-size: 20px;
+  }
+
+  .control-button, .station-button, .logout-button, .back-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #motor-table, #predicted-data-table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #motor-table th, #motor-table td, #predicted-data-table th, #predicted-data-table td {
+    padding: 5px;
+  }
+
+  .sensor {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sensor img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .gauge {
+    font-size: 12px;
+  }
+
+  .alert-section {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .underline-heading {
+    font-size: 18px;
+  }
+
+  .control-button, .station-button, .logout-button, .back-button {
+    font-size: 12px;
+  }
+
+  .sensor img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .gauge {
+    font-size: 10px;
+  }
+}
